@@ -1,0 +1,3 @@
+//named export...
+ export const API_KEY = "AIzaSyA9srtiyW9rW0dHAr4jNuf-C_pycM_DiFM";
+export  const BASE_URL = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=100&regionCode=US&key=${API_KEY}`;
